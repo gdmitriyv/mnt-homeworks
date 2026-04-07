@@ -1,18 +1,17 @@
 clickhouse:
   hosts:
     localhost:
-      ansible_host: 127.0.0.1
-      #ansible_user: ansible
-      #ansible_connection: local
+      ansible_connection: local
+      ansible_become: yes
+
 vector:
   hosts:
     localhost:
+      ansible_connection: local
       ansible_host: 127.0.0.1
-      #ansible_user: vector
-      #ansible_connection: local
+
 lighthouse:
   hosts:
     localhost:
       ansible_host: 127.0.0.1
-      ansible_user: lighthouse
-      #ansible_connection: local
+      ansible_connection: local

@@ -162,9 +162,13 @@ if __name__ == '__main__':
 
 **Шаг 4.** Проверьте module на исполняемость локально.
 
+<img width="1607" height="902" alt="4" src="https://github.com/user-attachments/assets/bbd45b20-7d31-4bf2-9ca0-39c37763f10e" />
+
 **Шаг 5.** Напишите single task playbook и используйте module в нём.
 
 **Шаг 6.** Проверьте через playbook на идемпотентность.
+
+<img width="1525" height="897" alt="6" src="https://github.com/user-attachments/assets/f40cd534-f6ed-42fe-a980-e33c01c836d9" />
 
 **Шаг 7.** Выйдите из виртуального окружения.
 
@@ -184,7 +188,11 @@ if __name__ == '__main__':
 
 **Шаг 15.** Установите collection из локального архива: `ansible-galaxy collection install <archivename>.tar.gz`.
 
+<img width="1521" height="895" alt="15" src="https://github.com/user-attachments/assets/31abc4e7-cf6a-434e-b86b-b332ac63812a" />
+
 **Шаг 16.** Запустите playbook, убедитесь, что он работает.
+
+<img width="1704" height="915" alt="16" src="https://github.com/user-attachments/assets/6029f0cf-c4c8-458d-a97e-5223023b87cd" />
 
 **Шаг 17.** В ответ необходимо прислать ссылки на collection и tar.gz архив, а также скриншоты выполнения пунктов 4, 6, 15 и 16.
 
